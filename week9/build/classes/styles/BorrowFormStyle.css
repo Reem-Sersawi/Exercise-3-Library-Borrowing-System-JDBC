@@ -1,0 +1,217 @@
+/* ROOT */
+.root {
+    -fx-background-color: #0f172a;
+    -fx-font-family: "Segoe UI";
+}
+
+/* SIDEBAR */
+.sidebar {
+    -fx-background-color: #1e293b;
+    -fx-padding: 20;
+}
+
+/* TEXT */
+.logo {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+}
+
+.section-label {
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+}
+
+/* INPUTS */
+.input {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: white ;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+}
+
+/* CHECKBOX */
+.checkbox {
+    -fx-text-fill: white;
+}
+
+/* BUTTON BASE */
+.button {
+    -fx-background-radius: 8;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/* BUTTON COLORS */
+.btn-primary {
+    -fx-background-color: #3b82f6;
+}
+
+.btn-success {
+    -fx-background-color: #10b981;
+}
+
+.btn-danger {
+    -fx-background-color: #ef4444;
+}
+
+.btn-secondary {
+    -fx-background-color: #334155;
+}
+
+/* OUTLINE BUTTON */
+.btn-outline {
+    -fx-background-color: transparent;
+    -fx-border-color: #3b82f6;
+    -fx-border-radius: 8;
+}
+
+/* TOP BAR */
+.topbar {
+    -fx-background-color: #1e293b;
+    -fx-padding: 10 20;
+}
+
+.title {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.badge {
+    -fx-background-color: #1d4ed8;
+    -fx-text-fill: white;
+    -fx-padding: 5 10;
+    -fx-background-radius: 20;
+}
+
+/* CONTENT */
+.content {
+    -fx-background-color: #0f172a;
+}
+
+/* EMPTY STATE */
+.empty-icon {
+    -fx-font-size: 40px;
+}
+
+.empty-title {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.empty-sub {
+    -fx-text-fill: #94a3b8;
+}
+
+/* TABLE ROOT */
+.custom-table {
+    -fx-background-color: #0f172a;
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+/* COLUMN HEADER BACKGROUND */
+.custom-table .column-header-background {
+    -fx-background-color: #1e293b;
+    -fx-background-radius: 8 8 0 0;
+}
+
+/* COLUMN HEADER TEXT */
+.custom-table .column-header, 
+.custom-table .filler {
+    -fx-size: 40px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+.custom-table .column-header .label {
+    -fx-text-fill: #e2e8f0;
+    -fx-font-weight: bold;
+}
+
+/* ROWS */
+.custom-table .table-row-cell {
+    -fx-background-color: #0f172a;
+    -fx-text-fill: white;
+}
+
+/* ALTERNATE ROW COLOR */
+.custom-table .table-row-cell:odd {
+    -fx-background-color: #111827;
+}
+
+/* HOVER EFFECT */
+.custom-table .table-row-cell:hover {
+    -fx-background-color: #1e293b;
+}
+
+/* SELECTED ROW */
+.custom-table .table-row-cell:selected {
+    -fx-background-color: #2563eb;
+}
+
+/* CELL TEXT */
+.custom-table .table-cell {
+    -fx-text-fill: #e5e7eb;
+    -fx-padding: 10;
+}
+
+/* SCROLLBAR */
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #334155;
+    -fx-background-radius: 5;
+}
+
+/* COMBOBOX */
+.combo-box, .combo-box-base {
+    -fx-background-color: #0f172a;
+}
+
+/* Text shown in the closed combo box */
+.combo-box .list-cell,
+.combo-box .button-cell,
+.combo-box-base .list-cell,
+.combo-box-base .button-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #0f172a;
+}
+
+/* Editor text for editable combo boxes */
+.combo-box-base .text-input {
+    -fx-text-fill: black;
+    -fx-prompt-text-fill: #94a3b8;
+}
+
+/* Dropdown list background + cells */
+.combo-box-popup .list-view {
+    -fx-background-color: #0f172a;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-text-fill: black;
+    -fx-background-color: #0f172a;
+}
+
+.combo-box-popup .list-view .list-cell:selected,
+.combo-box-popup .list-view .list-cell:focused {
+    -fx-text-fill: black;
+    -fx-background-color: #3b82f6;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #0f172a;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
